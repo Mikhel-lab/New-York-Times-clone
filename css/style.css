@@ -180,30 +180,32 @@ margin-bottom:20px;
 .theory {
     position: relative;
     top:1550px;
-    text-align: left;
+    left:15px;
+    text-align: justify;
     width:600px;
     margin:auto;
+ 
   
 }
 
 #inflation_image{
-    width:700px;
+    width:600px;
+    height:800px;
     z-index:-1;
     position: absolute;
-    top:4350px;
-    left:400px;
+    top:4330px;
+    left:670px;
 }
 .theory_items{
     display:grid;
     grid-template-columns: 25% 25% 25% 25%;
-    width:750px;
-    overflow: hidden;
-    margin: 50px 0;
+    width:600px;
+    margin: 60px 0;
    
     
 }
 .item {
-    margin:60px 10px;
+    margin:70px 10px;
 }
 
 .title {
@@ -333,31 +335,31 @@ width:300px;
     width:270px;
 }
 
-.div_title {
+.footer_title {
     border-top: 4px solid lightgray;
     display:flex;
     justify-content: space-between;
     padding:10px 0;
 }
 
-.div_content{
+.footer_top{
  display: flex;
  justify-content: space-between;
  border-bottom: 1px solid lightgray;
  padding-bottom:20px;
 }
-.content_items p, .content_items h3{
+.footer_items p, .footer_items h3{
  line-height: 20px;
  font-size:15px;
  margin:5px;
 
 }
-.content_items:last-child{
+.footer_items:last-child{
     padding-left:10px;
     border-left: 1px solid lightgray;
 }
 
-.div_footer{
+.footer_bottom{
     font-size:13px;
     color:lightgray;
     padding:10px 0 20px 0;
@@ -365,12 +367,23 @@ width:300px;
 
 }
 
-.div_footer ul li {
+.footer_top a {
+    color:black;
+}
+.footer_bottom a{
+    color:lightgray;
+}
+
+.footer_bottom ul li {
     list-style-type:none;
     margin-right:10px;
 }
 
-.div_footer ul {
+.footer_bottom ul {
     display:flex;
     justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    
 }
