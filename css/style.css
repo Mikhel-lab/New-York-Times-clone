@@ -106,7 +106,7 @@ margin-bottom:20px;
 .sidecontent {
     position: absolute;
     left:76%;
-    top:19%;
+    top:22%;
     width:250px;
     
    
@@ -164,7 +164,7 @@ margin-bottom:20px;
 
 .right1 {
     position: relative;
-    top:1400px;
+    top:1200px;
     left:76%;
     width:150px;
 }
@@ -192,7 +192,7 @@ margin-bottom:20px;
     z-index:-10;
     position: relative;
     top:1170px;
-    left:29%;
+    left:35%;
    
 }
 .theory_items{
@@ -266,14 +266,14 @@ top:1450px;
     width:90%;
     margin:40px auto;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .details_6 {
     width:90%;
     position: relative;
     top: 2200px;
-    margin:o auto;
+    margin:0 auto;
 }
 .more{
     text-align: left;
