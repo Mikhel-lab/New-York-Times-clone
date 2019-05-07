@@ -164,10 +164,9 @@ margin-bottom:20px;
 }
 
 .right1 {
-    float: right;
     position: relative;
     top:1400px;
-    right:10%;
+    left:76%;
     width:150px;
 }
 
@@ -179,7 +178,7 @@ margin-bottom:20px;
 
 .theory {
     position: relative;
-    top:1550px;
+    top:1400px;
     left:15px;
     text-align: justify;
     width:600px;
@@ -194,7 +193,7 @@ margin-bottom:20px;
     z-index:-1;
     position: absolute;
     top:4330px;
-    left:400px;
+    left:29%;
 }
 .theory_items{
     display:grid;
@@ -223,12 +222,12 @@ margin-bottom:20px;
 }
 
 .advert_4 {
-top:1800px;
+top:1450px;
 }
 
 .details_4{
     position: relative;
-    top: 1850px;
+    top: 1500px;
     margin:auto;
     text-align: left;
     width:600px;
@@ -248,11 +247,11 @@ top:1800px;
 }
 
 .advert_5{
-top:1850px;
+top:1450px;
 }
 
 .advert_6{
-    top:2500px;
+    top:2200px;
     }
 
 .read {
@@ -273,7 +272,8 @@ top:1850px;
 .details_6 {
     width:90%;
     position: relative;
-    top: 2500px;
+    top: 2200px;
+    margin:o auto;
 }
 .more{
     text-align: left;
