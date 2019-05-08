@@ -94,18 +94,17 @@ margin-bottom:20px;
 }
 
 .two_sides{
-  display:grid;
-  grid-template-columns: 72% 28%;
-  width:100%;
-    
-    
+ position: relative;
 }
+
+
 .left_side{
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
     max-width:800px;
-    margin-right:1.5vw;
+    
+    
 }
 .left_side p{
     margin-top:40px;
@@ -115,8 +114,9 @@ margin-bottom:20px;
 .right_side{
  max-width:220px;
  margin-top: 160px;
-
-    
+ position: absolute;
+ right:5px;
+ top:60px;
 }
 .img-div {
    display:inline-block;
