@@ -11,8 +11,8 @@ header {
     border-bottom:1px solid gray;
 }
 .container{
-    
-    position: relative;
+  margin-top: 61px;
+  z-index: -1;
 }
 .right{
     position: absolute;
@@ -42,7 +42,6 @@ header {
 }
 
 .advert{
-    position: relative;
     height:300px;
     background:lightgray;
     margin: 50px 0;
@@ -50,163 +49,144 @@ header {
     background-size:70%;
     background-position:center;
     background-repeat:no-repeat;
+    clear:both;
+    padding: 20px 20px;
+    box-sizing: border-box;
 }
 
-.advert_1{
-    top:650px;
 
-}
 .details{
-    position: relative;
-    top: 100px;
-    text-align: center;
+    width:800px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom:60px;
+    clear:both;
+}
+
+.details_img {
+    width:1200px;
+    margin: auto;
+    text-align: justify;
     margin-bottom:60px;
 }
 
-.details h2 {
+.details_img h2 {
     font-size: 50px;
     font-style: italic;
-    margin-bottom:30px;
-    margin-right: 200px;
+    text-align:center;
 }
 
-.details1 {
-    position: relative;
-    top:100px;
-    width: 600px;
-    margin:auto;
-    text-align: justify;
-
-}
-
-.details1 .date{
-    position: relative;;
+.details .date{  
     float:left;
-    top:20px;
+   
 }
-.details1 .icons{
-position: relative;
+.details .icons{
+
 float:right;
-top:20px;
+
 }
 
-.details1 p{
-position: relative;
-top:40px;
-float:left;
+.details p{
+margin-top:40px;
 font-size: 20px;
 line-height: 30px;
 margin-bottom:20px;
 }
 
-.details2{
-    top:450px !important;
-}
-
-.sidecontent {
-    position: absolute;
-    left:76%;
-    top:22%;
-    width:250px;
+.two_sides{
+  margin:auto;
+  width:1300px;  
     
-   
-
+    
 }
-
-.sidecontent img{
-    position: relative;
-    top:10px;
+.left_side{
     float:left;
-    margin-right:10px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    width:60%;
+    max-width:800px;
+    margin-right:1.5vw;
+    margin-left:13vw;
+}
+.left_side p{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+.right_side{
+ width:40%;
+ float:left;
+ max-width:220px;
+ margin-top: 160px;
+
+    
+}
+.img-div {
+   display:inline-block;
+}
+
+.img-div img{
+   float:left;
+   margin:5px;
     
 }
 
-.sidecontent p{
-    position: relative;
-    font-size: 15px;
-    line-height: 20px;
-    top:20px;
-
+.img-div p{
+    padding-top:10px;
 }
 
-.img-div {
-    position: absolute;
-    top:30px;
-}
-
-.img-div1 {
-    position: relative;
-    top:110px;
-}
-
-.img-div2 {
-    position: absolute;
-    top:240px;
-}
-
-.advert_2 {
-    top:1500px;
-
-}
-
-.details3{
-    padding:20px;
-    position: relative;
-    top:1500px;
-}
-
-.right1,.right1 p {
+.signup{
     width:200px;
-    text-align: left;
-    line-height: 20px;
-    font-size:15px;
+    line-height:15px;
 }
 
-.right1 {
-    position: relative;
-    top:1200px;
-    left:76%;
-    width:150px;
-}
-
-.right1 button {
-    padding: 5px 20px;
+.signup button{
+    width:200px;
     box-sizing: border-box;
-    width: 100%;
+    padding:5px 20px;
+    margin: 10px 0;
 }
-
-.theory {
-    position: relative;
-    top:1400px;
-    left:15px;
-    text-align: justify;
-    width:600px;
+.signup h3 {
+    margin: 50px 0 10px 0;
+}
+.overflow_hide{
+    overflow: hidden;
     margin:auto;
-    height:300px;
-     
+}
+.overflow_hide h3 {
+    margin-bottom: -30px;
+}
+.inflation_text p{
+    font-size:15px;
+    line-height:20px;
+    text-align: left;
 }
 
-#inflation_image{
-    width:600px;
-    height:800px;
-    z-index:-10;
-    position: relative;
-    top:1170px;
-    left:35%;
+.theory_items {
+    width: 900px;
+    background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png);
+    background-position:top;
+    background-size:900px 550px;
+    background-repeat: no-repeat;
    
-}
-.theory_items{
     display:grid;
     grid-template-columns: 25% 25% 25% 25%;
-    width:600px;
-    margin: 60px 0;
-   
-    
-}
-.item {
-    margin:70px 10px;
+    grid-template-rows: 50% 50%;
+    grid-gap: 5px 5px;
+
 }
 
+.item {
+    width:220px;
+    margin-top: 60px;
+}
+
+#cosmos{
+    display:flex;
+    width:90%;
+    justify-content: center;
+}
 .title {
     margin-top: -50px;
 }
@@ -221,43 +201,21 @@ margin-bottom:20px;
     margin-top:20px;
 }
 
-.advert_4 {
-top:1450px;
-}
-
-.details_4{
-    position: relative;
-    top: 1500px;
-    margin:auto;
-    text-align: left;
-    width:600px;
-    font-size:20px;
-    line-height: 30px;
-}
-
-.details_4 p{
-    margin-bottom:20px;
-}
 
 .figcap {
-    font-size:15px;
-    color:gray;
-    line-height:12px;
-    margin-bottom:20px;
+    font-size:12px !important;
+    color:gray !important;
+    line-height:15px !important;
+    margin-bottom:20px !important;
+    text-align:center !important;
 }
 
-.advert_5{
-top:1450px;
-}
 
-.advert_6{
-    top:2200px;
-    }
 
 .read {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-column-gap: 13rem;
+    grid-column-gap: 19vw;
     
 }
 
@@ -271,8 +229,6 @@ top:1450px;
 
 .details_6 {
     width:90%;
-    position: relative;
-    top: 2200px;
     margin:0 auto;
 }
 .more{
