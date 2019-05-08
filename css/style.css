@@ -71,9 +71,10 @@ header {
 }
 
 .details_img h2 {
-    font-size: 50px;
+    font-size: 5rem;
     font-style: italic;
     text-align:center;
+    margin: 3rem auto;
 }
 
 .details .date{  
@@ -129,7 +130,7 @@ margin-bottom:20px;
 }
 
 .img-div p{
-    padding-top:10px;
+    padding-top:6px;
 }
 
 .signup{
