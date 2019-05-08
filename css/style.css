@@ -47,11 +47,11 @@ header {
     margin: auto;
     text-align: justify;
     margin-bottom:60px;
-    clear:both;
+   
 }
 
 .details_img {
-    width:800px;
+    width:1200px;
     margin: auto;
     text-align: justify;
     margin-bottom:60px;
@@ -103,7 +103,7 @@ margin-bottom:20px;
  max-width:220px;
  margin-top: 160px;
  position: absolute;
- right:3vw;
+ right:10vw;
  top:60px;
 }
 .img-div {
