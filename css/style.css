@@ -94,20 +94,18 @@ margin-bottom:20px;
 }
 
 .two_sides{
-  margin:auto;
-  width:1300px;  
+  display:grid;
+  grid-template-columns: 72% 28%;
+  width:100%;
     
     
 }
 .left_side{
-    float:left;
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
-    width:60%;
     max-width:800px;
     margin-right:1.5vw;
-    margin-left:13vw;
 }
 .left_side p{
     margin-top:40px;
@@ -115,8 +113,6 @@ margin-bottom:20px;
 }
 
 .right_side{
- width:40%;
- float:left;
  max-width:220px;
  margin-top: 160px;
 
